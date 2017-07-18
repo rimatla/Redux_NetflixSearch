@@ -1,0 +1,10 @@
+*To Start App
+$webpack --module-bind='js=babel' js/ClientApp.js public/bundle.js
+
+$webpack --watch
+
+npm start
+$npm run dev
+
+*Watch for changes
+$npm run watch
